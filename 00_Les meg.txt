@@ -1,0 +1,24 @@
+07:47 26.06.2014
+Denne versjonen eksekverer fint med 1 drpCt,
+men da jeg skulle gå fra en til mange Drp 
+oppdaget jeg en innkonsisten:
+	if (tooDryIvalCt>tooDryIvalCtLim)
+	tooDryLedFlg=true;
+		{
+		if (!tooDrySmsFlg){
+		tooDrySmsFlg=true; 
+		sendSmsQ.push(Sms_DropMon_is_tooDry);}
+		}
+
+Dette MÅ være en feil
+	
+	if (tooDryIvalCt>tooDryIvalCtLim)
+		{
+		tooDryLedFlg=true;
+		
+		if (!tooDrySmsFlg){
+		tooDrySmsFlg=true; 
+		sendSmsQ.push(Sms_DropMon_is_tooDry);}
+		}
+
+JEG RETTET UTEN Å GJØRE OMFATTENDE TESTER
