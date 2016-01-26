@@ -22,3 +22,7 @@ Dette MÅ være en feil
 		}
 
 JEG RETTET UTEN Å GJØRE OMFATTENDE TESTER
+________________
+06:55 26.01.2016 I januar 2016 forsøkte jeg å legge disse filene under GIT
+	med tanke på en slags versjonskontroll og backup. Har enda ikke forstått
+	helt hvordan dette virker.
