@@ -4,6 +4,7 @@
 * Raw and dirty mod. worked late at night 11/2-2014 
 * Missing XBee transmission messy - must rework
 * Initiation messy and solved with dirty timeout in SMS sending 
+* Lagt under GIT-hub for backup
 *---------------------------------------------------------------*/
 #include <SoftwareSerial.h>
 #include "smsIdxQ.h"
